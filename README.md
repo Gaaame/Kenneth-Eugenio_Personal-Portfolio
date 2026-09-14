@@ -103,13 +103,11 @@ A dedicated contact page where visitors can reach me through email or connect wi
 
 The portfolio highlights my experience across frontend development, digital marketing, and web-based creative work.
 
-### Tenerity — Digital Marketing Specialist
+### Tenerity — Creative Assistant
 
 **2024 – 2026**
 
-Worked with international clients across Europe, North America, and South America to develop and implement digital marketing solutions.
-
-Responsibilities included developing and optimizing **HTML and CSS creatives** for deployment through **Google Campaign Manager**, ensuring functionality, responsiveness, and adherence to campaign requirements.
+Collaborated with international clients across Europe, North and South America to develop and implement marketing solutions that enhanced brand visibility and accessibility. Developed and optimized HTML and CSS creatives for deployment through Google Campaign Manager, ensuring accurate functionality, responsiveness, and adherence to campaign requirements.
 
 ### One Document Corporation — Frontend Developer
 
