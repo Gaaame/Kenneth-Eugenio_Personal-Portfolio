@@ -62,7 +62,9 @@ function About() {
               </div>
 
               <div className="col-span-2 rounded-2xl border border-gray-200 bg-white p-4 shadow-sm sm:col-span-1">
-                <p className="text-2xl font-bold text-orange-500">Cyber</p>
+                <p className="text-2xl font-bold text-orange-500">
+                  Cyber Security
+                </p>
                 <p className="mt-1 text-sm text-gray-500">Current Direction</p>
               </div>
             </div>

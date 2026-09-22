@@ -16,7 +16,7 @@ const experiences = [
       "Developed responsive websites and user-focused digital experiences using React, Tailwind CSS, Bootstrap, WordPress, and Figma, including projects for E-Agro and Strategic Asia Pacific Partners, Inc. (SAPPI). Designed UI/UX, prototypes, and high-fidelity mockups while ensuring modern, responsive, and consistent digital experiences.",
   },
   {
-    img: "https://chimesconsulting.com/frontend/assets/logo.png",
+    img: "https://chimesconsulting.com/Chimes%20Logo%20v.3-01.png?name=chimes-logo.webp",
     company: "Chimes Consulting",
     year: "2021",
     role: "Frontend Associate Developer",
