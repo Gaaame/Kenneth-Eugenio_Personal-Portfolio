@@ -1,29 +1,29 @@
 const projects = [
-  // {
-  //   url: "https://e-agro.ph/",
-  //   project: "E-Agro",
-  //   tags: ["React", "Frontend"],
-  //   description:
-  //     "Developing digital tools and experiences to support farmers, suppliers, and laborers.",
-  // },
+  {
+    url: "https://eagro.netlify.app/",
+    project: "E-Agro",
+    tags: ["React", "TailwindCSS", "Frontend"],
+    description:
+      "Developing digital tools and experiences to support farmers, suppliers, and laborers.",
+  },
   {
     url: "https://backroads-travelsite.netlify.app/",
     project: "Backroads Travel Website",
-    tags: ["React", "Frontend"],
+    tags: ["React", "TailwindCSS", "Frontend"],
     description:
       "Creating a one-stop digital destination for discovering and exploring travel experiences.",
   },
   {
     url: "https://www.behance.net/gallery/175292137/Simple-Green-and-White-Photography-Portfolio",
     project: "Photography Portfolio",
-    tags: ["UI/UX", "Branding"],
+    tags: ["Figma", "UI/UX", "Mockup"],
     description:
       "A UI/UX case study focused on creating a clean and visually engaging photography portfolio.",
   },
   {
     url: "https://kenneth-photographysite.netlify.app/",
     project: "Photography Portfolio Website",
-    tags: ["React", "Frontend"],
+    tags: ["HTML", "CSS", "JavaScript", "Frontend"],
     description: "Turning the case study into an interactive portfolio",
   },
 ];
