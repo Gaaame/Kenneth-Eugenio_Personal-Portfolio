@@ -4,12 +4,8 @@ function About() {
   return (
     <section
       id="about"
-      className="relative min-h-[calc(100vh-5rem)] overflow-hidden bg-slate-50"
+      className="relative min-h-[calc(100vh-5rem)] overflow-hidden bg-blue-50"
     >
-      {/* Decorative Background */}
-      <div className="absolute -left-32 top-20 h-72 w-72 rounded-full bg-blue-200/30 blur-3xl" />
-      <div className="absolute -right-32 bottom-10 h-80 w-80 rounded-full bg-orange-200/30 blur-3xl" />
-
       {/* Grid Decoration */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#e2e8f0_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[size:60px_60px] opacity-20" />
 
@@ -17,16 +13,15 @@ function About() {
         <div className="grid w-full items-center gap-12 md:grid-cols-2">
           {/* Content */}
           <div>
+            {" "}
             <p className="text-sm font-semibold uppercase tracking-wide text-orange-500 sm:text-base">
               About Me
             </p>
-
             <h1 className="mt-4 text-5xl font-bold leading-tight tracking-tight text-gray-900 sm:text-6xl">
               Developer by experience.
               <br />
               <span className="text-blue-600">Security by ambition.</span>
             </h1>
-
             <div className="mt-8 space-y-5 text-base leading-relaxed text-gray-600 sm:text-lg">
               <p>
                 I am a frontend developer with the past 4 years of experience
@@ -48,7 +43,6 @@ function About() {
                 digital systems are built, protected, and maintained.
               </p>
             </div>
-
             {/* Quick Facts */}
             <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3">
               <div className="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">

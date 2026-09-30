@@ -8,7 +8,7 @@ const experiences = [
       "Collaborated with international clients across Europe, North and South America to develop and implement marketing solutions that enhanced brand visibility and accessibility. Developed and optimized HTML and CSS creatives for deployment through Google Campaign Manager, ensuring accurate functionality, responsiveness, and adherence to campaign requirements.",
   },
   {
-    img: "https://onedoc.ph/assets/logo-CbYAyeE7.png",
+    img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D122113560428036576&f=1&nofb=1&ipt=16758f6549c56a940c30cad0df9f85da3e47125697fc253d46a0e80b66215885&ipo=images",
     company: "One Document Corporation",
     year: "2021 - 2024",
     role: "Frontend Developer",
@@ -27,16 +27,12 @@ const experiences = [
 
 function Experience() {
   return (
-    <section id="experience" className="relative overflow-hidden bg-blue-50">
-      {/* Decorative Background */}
-      <div className="absolute -left-32 top-20 h-72 w-72 rounded-full bg-blue-200/40 blur-3xl" />
-      <div className="absolute -right-32 bottom-20 h-80 w-80 rounded-full bg-orange-200/30 blur-3xl" />
-
+    <section id="experience" className="relative overflow-hidden bg-slate-50">
+      {/* Grid Decoration */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#e2e8f0_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[size:60px_60px] opacity-20" />
       <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 md:py-24 lg:px-8">
         {/* Section Header */}
         <div className="mx-auto mb-16 max-w-3xl text-center">
-          <div className="mx-auto mb-4 h-1 w-12 rounded-full bg-orange-400" />
-
           <p className="text-sm font-semibold uppercase tracking-wide text-orange-500 sm:text-base">
             Career Journey
           </p>
@@ -68,11 +64,6 @@ function Experience() {
                 <div className="relative overflow-hidden rounded-2xl border border-blue-100 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-blue-200 hover:shadow-xl sm:p-8">
                   {/* Card Hover Accent */}
                   <div className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-blue-500 to-orange-400 transition-all duration-300 group-hover:w-2" />
-
-                  {/* Decorative Number */}
-                  <span className="absolute -right-2 -top-6 select-none text-8xl font-bold text-blue-50 transition-all duration-300 group-hover:text-blue-100">
-                    0{index + 1}
-                  </span>
 
                   <div className="relative flex flex-col gap-6 md:flex-row md:items-start">
                     {/* Logo */}

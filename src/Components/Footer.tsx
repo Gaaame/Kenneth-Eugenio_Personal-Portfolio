@@ -14,21 +14,10 @@ function Footer() {
       <div className="relative mx-auto flex w-full max-w-7xl flex-col justify-center px-4 py-20 sm:px-6 lg:px-8">
         {/* Contact Section */}
         <div className="mx-auto max-w-3xl text-center">
-          {/* Small Label */}
-          <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-blue-300 backdrop-blur">
-            <span className="h-2 w-2 animate-pulse rounded-full bg-orange-400" />
-            Let's Connect
-          </div>
-
           <h2 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
             Let's build something
             <span className="block text-blue-400">great together.</span>
           </h2>
-
-          <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-gray-400 sm:text-lg">
-            I'm always open to discussing new opportunities, creative projects,
-            web development, and my growing journey into cybersecurity.
-          </p>
 
           {/* Contact Button */}
 
@@ -42,9 +31,6 @@ function Footer() {
             </span>
           </Link>
         </div>
-
-        {/* Divider */}
-        <div className="my-16 h-px bg-white/10" />
 
         {/* Bottom Section */}
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
@@ -65,44 +51,6 @@ function Footer() {
 
           {/* Navigation */}
           <div className="flex flex-col items-center gap-6 md:items-end">
-            <ul className="flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm">
-              <li>
-                <a
-                  href="/#home"
-                  className="text-gray-400 transition-colors duration-300 hover:text-white"
-                >
-                  Home
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="/about"
-                  className="text-gray-400 transition-colors duration-300 hover:text-white"
-                >
-                  About
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="/#experience"
-                  className="text-gray-400 transition-colors duration-300 hover:text-white"
-                >
-                  Experience
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="/#projects"
-                  className="text-gray-400 transition-colors duration-300 hover:text-white"
-                >
-                  Projects
-                </a>
-              </li>
-            </ul>
-
             {/* Social Links */}
             <ul className="flex items-center justify-center gap-4">
               {/* LinkedIn */}

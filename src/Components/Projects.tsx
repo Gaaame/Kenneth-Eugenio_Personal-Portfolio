@@ -3,12 +3,14 @@ const projects = [
     url: "https://eagro.netlify.app/",
     project: "E-Agro",
     tags: ["React", "TailwindCSS", "Frontend"],
+    image: "https://i.8upload.com/image/85fc5fca850bd11c/eagro-cap.png",
     description:
       "Developing digital tools and experiences to support farmers, suppliers, and laborers.",
   },
   {
     url: "https://backroads-travelsite.netlify.app/",
     project: "Backroads Travel Website",
+    image: "https://i.8upload.com/image/03b2354ce52c7592/backgroadscap.png",
     tags: ["React", "TailwindCSS", "Frontend"],
     description:
       "Creating a one-stop digital destination for discovering and exploring travel experiences.",
@@ -16,6 +18,8 @@ const projects = [
   {
     url: "https://www.behance.net/gallery/175292137/Simple-Green-and-White-Photography-Portfolio",
     project: "Photography Portfolio",
+    image:
+      "https://i.8upload.com/image/9df6da44522c0911/7b9d35175292137-64b0eb6353954.webp",
     tags: ["Figma", "UI/UX", "Mockup"],
     description:
       "A UI/UX case study focused on creating a clean and visually engaging photography portfolio.",
@@ -23,6 +27,8 @@ const projects = [
   {
     url: "https://kenneth-photographysite.netlify.app/",
     project: "Photography Portfolio Website",
+    image:
+      "https://i.8upload.com/image/085904c05788daf6/screencapture-kenneth-photographysite-netlify-app-2026-09-28-16-12-35.png",
     tags: ["HTML", "CSS", "JavaScript", "Frontend"],
     description: "Turning the case study into an interactive portfolio",
   },
@@ -30,23 +36,20 @@ const projects = [
 
 function Projects() {
   return (
-    <section id="projects" className="relative overflow-hidden bg-slate-50">
-      {/* Decorative Background */}
-      <div className="absolute -top-32 -left-32 h-72 w-72 rounded-full bg-blue-200/30 blur-3xl" />
-      <div className="absolute -right-32 bottom-0 h-72 w-72 rounded-full bg-orange-200/30 blur-3xl" />
+    <section id="projects" className="relative overflow-hidden  bg-blue-50">
+      {/* Grid Decoration */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#e2e8f0_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[size:60px_60px] opacity-20" />
 
       <div className="relative mx-auto flex min-h-[75vh] max-w-7xl items-center px-4 py-20 sm:px-6 lg:px-8">
         <div className="w-full">
           {/* Section Header */}
           <div className="mx-auto max-w-3xl text-center">
-            <div className="mx-auto mb-4 h-1 w-12 rounded-full bg-orange-400" />
-
             <p className="text-sm font-semibold tracking-wide text-orange-500 uppercase sm:text-base">
               Selected Work
             </p>
 
             <h2 className="mt-3 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-              My Endeavors
+              My Projects
             </h2>
 
             <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-gray-600 sm:text-lg">
@@ -56,7 +59,7 @@ function Projects() {
           </div>
 
           {/* Project Cards */}
-          <div className="mx-auto mt-14 grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-3">
+          <div className="mx-auto mt-14 grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2 ">
             {projects.map((item, index) => (
               <a
                 key={item.project}
@@ -69,14 +72,20 @@ function Projects() {
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-50/0 to-orange-50/0 transition-all duration-300 group-hover:from-blue-50 group-hover:to-orange-50" />
 
                 <div className="relative">
+                  {/* Project Preview */}
+                  <div className="relative mb-6 aspect-video overflow-hidden rounded-xl">
+                    <img
+                      src={item.image}
+                      alt={`${item.project} preview`}
+                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                  </div>
                   {/* Top Row */}
                   <div className="flex items-start justify-between">
                     <span className="text-sm font-bold text-blue-500">
                       0{index + 1}
-                    </span>
-
-                    <span className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-200 text-lg text-gray-700 transition-all duration-300 group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:border-blue-500 group-hover:bg-blue-500 group-hover:text-white">
-                      ↗
                     </span>
                   </div>
 
@@ -101,9 +110,6 @@ function Projects() {
                       </span>
                     ))}
                   </div>
-
-                  {/* Bottom Accent */}
-                  <div className="mt-8 h-1 w-0 rounded-full bg-gradient-to-r from-blue-500 to-orange-400 transition-all duration-500 group-hover:w-full" />
                 </div>
               </a>
             ))}

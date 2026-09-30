@@ -7,25 +7,12 @@ function Hero() {
       id="home"
       className="relative min-h-screen overflow-hidden bg-slate-50"
     >
-      {/* Decorative Background */}
-      <div className="absolute -left-32 top-20 h-72 w-72 rounded-full bg-blue-200/30 blur-3xl" />
-      <div className="absolute -right-32 bottom-10 h-80 w-80 rounded-full bg-orange-200/30 blur-3xl" />
-
       {/* Grid Decoration */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#e2e8f0_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[size:60px_60px] opacity-20" />
 
       <div className="relative mx-auto grid min-h-screen max-w-7xl items-center gap-12 px-4 py-20 sm:px-6 md:grid-cols-2 lg:px-8">
         {/* Hero Content */}
         <div className="max-w-2xl">
-          {/* Available Badge */}
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-blue-100 bg-white px-4 py-2 text-sm font-medium text-blue-600 shadow-sm">
-            <span className="relative flex h-2.5 w-2.5">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
-              <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-500" />
-            </span>
-            Available for opportunities
-          </div>
-
           <p className="text-sm font-semibold uppercase tracking-wide text-orange-500 sm:text-base">
             Web Developer • Aspiring Cybersecurity Professional
           </p>
