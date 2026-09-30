@@ -10,7 +10,6 @@ import Projects from "./Components/Projects.tsx";
 import Footer from "./Components/Footer.tsx";
 import Contact from "./Components/Contact.tsx";
 import About from "./Components/About.tsx";
-import Preloader from "./Components/Preloader.tsx";
 
 function Home() {
   return (
@@ -40,7 +39,6 @@ function App() {
   return (
     <div>
       {" "}
-      <Preloader />
       <Navbar />
       <PageTransition />
     </div>
