@@ -8,7 +8,7 @@ const experiences = [
       "Collaborated with international clients across Europe, North and South America to develop and implement marketing solutions that enhanced brand visibility and accessibility. Developed and optimized HTML and CSS creatives for deployment through Google Campaign Manager, ensuring accurate functionality, responsiveness, and adherence to campaign requirements.",
   },
   {
-    img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D122113560428036576&f=1&nofb=1&ipt=16758f6549c56a940c30cad0df9f85da3e47125697fc253d46a0e80b66215885&ipo=images",
+    img: "https://scontent.fcrk3-3.fna.fbcdn.net/v/t39.30808-6/383227245_122113560422036576_1853721362413452941_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHBK-CqjhqxpCeqDXEv8yfrt1I-OwR8aYS3Uj47BHxphIDgnXqQEEGCFzmV3l_o2ZA&_nc_ohc=2mQiMRZ3xeEQ7kNvwFAIrug&_nc_oc=Adrru_GXrcH1VAUjEZ-KUSR7o-YN-OE054L5B0rOtQpPfNtEnCzz1NMU8FoojZekeFYp_4M-AdUvk_iFJNQBdsQ-&_nc_zt=23&_nc_ht=scontent.fcrk3-3.fna&_nc_gid=8B2_BEmWxzw8VF5-AO4uRw&_nc_ss=7b2a8&oh=00_AQN8n3N2C9P-XTnqPqHDGvX27UTqgL7TK3O1BvgLLJ-Z3w&oe=6AC3BA30",
     company: "One Document Corporation",
     year: "2021 - 2024",
     role: "Frontend Developer",
@@ -65,9 +65,9 @@ function Experience() {
                   {/* Card Hover Accent */}
                   <div className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-blue-500 to-orange-400 transition-all duration-300 group-hover:w-2" />
 
-                  <div className="relative flex flex-col gap-6 md:flex-row md:items-start">
+                  <div className="relative flex flex-col text-center gap-6 md:text-left md:flex-row md:items-start">
                     {/* Logo */}
-                    <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-2xl border border-gray-100 bg-white p-3 shadow-sm transition-all duration-300 group-hover:scale-105 group-hover:shadow-md sm:h-24 sm:w-24">
+                    <div className="flex h-28 w-72 mx-auto shrink-0 items-center justify-center rounded-2xl border border-gray-100 bg-white p-2 shadow-sm transition-all duration-300 group-hover:scale-105 group-hover:shadow-md sm:h-24 sm:w-24 sm:p-3">
                       <img
                         src={experience.img}
                         alt={`${experience.company} logo`}
@@ -78,7 +78,7 @@ function Experience() {
                     {/* Content */}
                     <div className="flex-1">
                       {/* Header */}
-                      <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+                      <div className="flex flex-col items-center gap-4 sm:flex-row sm:items-start sm:justify-between">
                         <div>
                           <p className="mb-1 text-sm font-semibold text-orange-500">
                             {experience.role}
@@ -90,7 +90,7 @@ function Experience() {
                         </div>
 
                         {/* Year Badge */}
-                        <span className="w-fit rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-sm font-semibold text-blue-600 transition-colors duration-300 group-hover:bg-blue-500 group-hover:text-white">
+                        <span className="w-fit rounded-full border border-blue-100 bg-blue-50 px-4 py-2 text-center text-sm font-semibold text-blue-600 transition-colors duration-300 group-hover:bg-blue-500 group-hover:text-white sm:text-left">
                           {experience.year}
                         </span>
                       </div>

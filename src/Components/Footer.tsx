@@ -4,26 +4,23 @@ function Footer() {
   return (
     <footer
       id="contact"
-      className="relative flex min-h-50 overflow-hidden bg-slate-950 text-white"
+      className="relative flex min-h-[50vh] overflow-hidden bg-slate-950 text-white"
     >
-      {/* Decorative Background */}{" "}
-      <div className="absolute -left-32 top-0 h-80 w-80 rounded-full bg-blue-600/20 blur-3xl" />{" "}
-      <div className="absolute -right-32 bottom-0 h-80 w-80 rounded-full bg-orange-400/10 blur-3xl" />
       {/* Grid Decoration */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.05)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:60px_60px]" />
-      <div className="relative mx-auto flex w-full max-w-7xl flex-col justify-center px-4 py-20 sm:px-6 lg:px-8">
+
+      <div className="relative mx-auto flex w-full max-w-7xl flex-col justify-center px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
         {/* Contact Section */}
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+          <h2 className="text-3xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
             Let's build something
             <span className="block text-blue-400">great together.</span>
           </h2>
 
           {/* Contact Button */}
-
           <Link
             to="/contact"
-            className="group mt-8 inline-flex items-center gap-3 rounded-full bg-blue-600 px-7 py-3.5 font-semibold text-white shadow-lg shadow-blue-500/20 transition-all duration-300 hover:-translate-y-1 hover:bg-orange-400 hover:shadow-xl"
+            className="group mt-6 inline-flex items-center gap-3 rounded-full bg-blue-600 px-6 py-3 font-semibold text-white shadow-lg shadow-blue-500/20 transition-all duration-300 hover:-translate-y-1 hover:bg-orange-400 hover:shadow-xl sm:mt-8 sm:px-7 sm:py-3.5"
           >
             Get In Touch
             <span className="transition-transform duration-300 group-hover:translate-x-1">
@@ -33,7 +30,7 @@ function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
+        <div className="mt-12 flex flex-col items-center gap-8 border-t border-white pt-8 sm:mt-16 sm:pt-10 md:flex-row md:justify-between">
           {/* Brand / Copyright */}
           <div className="text-center md:text-left">
             <a href="/#home" className="inline-flex items-center gap-3">

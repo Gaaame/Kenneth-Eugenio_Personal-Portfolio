@@ -10,14 +10,37 @@ function Hero() {
       {/* Grid Decoration */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#e2e8f0_1px,transparent_1px),linear-gradient(to_bottom,#e2e8f0_1px,transparent_1px)] bg-[size:60px_60px] opacity-20" />
 
-      <div className="relative mx-auto grid min-h-screen max-w-7xl items-center gap-12 px-4 py-20 sm:px-6 md:grid-cols-2 lg:px-8">
-        {/* Hero Content */}
-        <div className="max-w-2xl">
-          <p className="text-sm font-semibold uppercase tracking-wide text-orange-500 sm:text-base">
-            Web Developer • Aspiring Cybersecurity Professional
-          </p>
+      <div className="relative mx-auto flex min-h-screen max-w-5xl flex-col items-center justify-center px-4 py-20 text-center sm:px-6 lg:px-8">
+        {/* Avatar Section */}
+        <div className="relative mb-10 flex w-full justify-center">
+          <div className="relative flex h-64 w-64 items-center justify-center sm:h-80 sm:w-80 md:h-[360px] md:w-[360px]">
+            {/* Outer Blob */}
+            <div className="blob-border absolute inset-0 bg-blue-500 shadow-2xl shadow-blue-500/20" />
 
-          <h1 className="mt-4 text-5xl font-bold leading-[1.05] tracking-tight text-gray-900 sm:text-6xl md:text-6xl lg:text-7xl">
+            {/* Rotating Decorative Ring */}
+            <div className="absolute -inset-4 animate-[spin_20s_linear_infinite] rounded-full border border-dashed border-blue-300" />
+
+            {/* Security Accent */}
+            <div className="absolute -right-4 top-8 z-20 flex h-14 w-14 rotate-12 items-center justify-center rounded-2xl bg-orange-400/80 text-2xl shadow-lg">
+              🔒
+            </div>
+
+            {/* Decorative Circle */}
+            <div className="absolute -bottom-2 -left-4 h-12 w-12 rounded-full bg-blue-300" />
+
+            {/* Avatar */}
+            <img
+              src={avatar}
+              alt="Kenneth Eugenio"
+              className="blob-image relative z-10 h-[85%] w-[85%] object-cover drop-shadow-xl"
+            />
+          </div>
+        </div>
+
+        {/* Hero Content */}
+        <div className="mx-auto max-w-3xl">
+          {/* Heading */}
+          <h1 className="mt-4 text-5xl font-bold leading-[1.05] tracking-tight text-gray-900 sm:text-6xl lg:text-7xl">
             Building digital
             <br />
             <span className="relative inline-block text-blue-600">
@@ -28,14 +51,15 @@ function Hero() {
             and securing what's behind them.
           </h1>
 
-          <p className="mt-8 max-w-xl text-base leading-relaxed text-gray-600 sm:text-lg">
+          {/* Description */}
+          <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-gray-600 sm:text-lg">
             A frontend developer with experience creating modern digital
             experiences, currently expanding my skills and knowledge in
             cybersecurity and information security.
           </p>
 
           {/* Actions */}
-          <div className="mt-8 flex flex-wrap items-center gap-4">
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
             <a
               href={resume}
               download="Kenneth-Eugenio-Resume-2026.pdf"
@@ -56,7 +80,7 @@ function Hero() {
           </div>
 
           {/* Social Links */}
-          <div className="mt-10 flex items-center gap-5">
+          <div className="mt-10 flex items-center justify-center gap-5">
             <span className="text-sm font-medium text-gray-500">
               Find me on
             </span>
@@ -65,7 +89,7 @@ function Hero() {
 
             {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/in/kenneth-eugenio-7452403a0/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B82%2F%2BfiooTaisPF6sh24h4g%3D%3D"
+              href="https://www.linkedin.com/in/kenneth-eugenio-7452403a0/"
               rel="noreferrer"
               target="_blank"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-200 bg-white text-gray-700 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-blue-500 hover:bg-blue-500 hover:text-white hover:shadow-md"
@@ -90,7 +114,7 @@ function Hero() {
               target="_blank"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-200 bg-white text-gray-700 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-violet-500 hover:bg-violet-500 hover:text-white hover:shadow-md"
             >
-              <span className="sr-only">LinkedIn</span>
+              <span className="sr-only">Github</span>
 
               <svg
                 className="size-5"
@@ -109,11 +133,10 @@ function Hero() {
             {/* Email */}
             <a
               href="mailto:eugenio.kennethcleofas@gmail.com"
-              rel="noreferrer"
-              target="_blank"
               className="flex h-10 w-10 items-center justify-center rounded-full border border-gray-200 bg-white text-gray-700 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-gray-900 hover:bg-gray-900 hover:text-white hover:shadow-md"
             >
               <span className="sr-only">Email</span>
+
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -130,44 +153,6 @@ function Hero() {
                 <path d="m3 7 9 6 9-6" />
               </svg>
             </a>
-          </div>
-        </div>
-
-        {/* Avatar Section */}
-        <div className="relative flex justify-center">
-          <div className="relative flex h-72 w-72 items-center justify-center sm:h-96 sm:w-96 md:h-[420px] md:w-[420px]">
-            {/* Outer Blob */}
-            <div className="blob-border absolute inset-0 bg-blue-500 shadow-2xl shadow-blue-500/20" />
-
-            {/* Rotating Decorative Ring */}
-            <div className="absolute -inset-4 animate-[spin_20s_linear_infinite] rounded-full border border-dashed border-blue-300" />
-
-            {/* Security Accent */}
-            <div className="absolute -right-4 top-10 flex h-16 w-16 rotate-12 items-center justify-center rounded-2xl bg-orange-400/80 text-2xl shadow-lg">
-              🔒
-            </div>
-
-            <div className="absolute -bottom-2 -left-4 h-12 w-12 rounded-full bg-blue-300" />
-
-            {/* Avatar */}
-            <img
-              src={avatar}
-              alt="Avatar"
-              className="blob-image relative z-10 h-[85%] w-[85%] object-cover drop-shadow-xl"
-            />
-
-            {/* Career Card */}
-            <div className="absolute -bottom-4 -left-4 z-20 hidden rounded-2xl border border-white/50 bg-white/90 px-5 py-4 shadow-xl backdrop-blur md:block">
-              <p className="text-xs font-medium text-gray-500">
-                Career Direction
-              </p>
-
-              <p className="text-lg font-bold text-gray-900">Cybersecurity</p>
-
-              <p className="mt-1 text-xs text-blue-600">
-                Building & securing digital systems
-              </p>
-            </div>
           </div>
         </div>
       </div>

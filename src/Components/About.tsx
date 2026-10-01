@@ -12,16 +12,17 @@ function About() {
       <div className="relative mx-auto flex min-h-[calc(100vh-5rem)] max-w-7xl items-center px-4 py-20 sm:px-6 lg:px-8">
         <div className="grid w-full items-center gap-12 md:grid-cols-2">
           {/* Content */}
-          <div>
-            {" "}
+          <div className="text-center md:text-left">
             <p className="text-sm font-semibold uppercase tracking-wide text-orange-500 sm:text-base">
               About Me
             </p>
+
             <h1 className="mt-4 text-5xl font-bold leading-tight tracking-tight text-gray-900 sm:text-6xl">
               Developer by experience.
               <br />
               <span className="text-blue-600">Security by ambition.</span>
             </h1>
+
             <div className="mt-8 space-y-5 text-base leading-relaxed text-gray-600 sm:text-lg">
               <p>
                 I am a frontend developer with the past 4 years of experience
@@ -43,8 +44,9 @@ function About() {
                 digital systems are built, protected, and maintained.
               </p>
             </div>
+
             {/* Quick Facts */}
-            <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3">
+            <div className="mt-10 grid grid-cols-2 gap-4 text-center sm:grid-cols-3">
               <div className="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm">
                 <p className="text-2xl font-bold text-blue-600">5+</p>
                 <p className="mt-1 text-sm text-gray-500">Years Experience</p>
@@ -65,7 +67,7 @@ function About() {
           </div>
 
           {/* Right Side */}
-          <div className="relative flex justify-center">
+          <div className="relative hidden justify-center md:flex">
             <div className="relative flex h-72 w-72 items-center justify-center sm:h-96 sm:w-96">
               {/* Blob */}
               <div className="blob-border absolute inset-0 bg-blue-500 shadow-2xl shadow-blue-500/20" />
