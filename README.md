@@ -8,6 +8,17 @@ The portfolio showcases my work and experience as a **Frontend Web Developer**, 
 
 **[eugenio-portfolio-2026.netlify.app](https://eugenio-portfolio-2026.netlify.app/)**
 
+
+## Screenshots
+<img width="2066" height="1330" alt="image" src="https://github.com/user-attachments/assets/554e802f-d05e-4c90-b869-271e5c3c6b8c" />
+
+<img width="2066" height="1330" alt="image" src="https://github.com/user-attachments/assets/00c15646-3683-4140-92a1-40b30789dfcf" />
+
+<img width="2066" height="1330" alt="image" src="https://github.com/user-attachments/assets/cd8b0e86-bb02-4106-be61-010478fb7789" />
+
+
+
+
 ## 🛠️ Tech Stack
 
 * React
