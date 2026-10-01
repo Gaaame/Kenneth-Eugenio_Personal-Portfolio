@@ -4,7 +4,7 @@ A modern personal portfolio website built with **React, TypeScript, Vite, and Ta
 
 The portfolio showcases my work and experience as a **Frontend Web Developer**, along with my ongoing focus on **Cybersecurity and Information Security**.
 
-## 🚀 Live Website
+## Live Website
 
 **[eugenio-portfolio-2026.netlify.app](https://eugenio-portfolio-2026.netlify.app/)**
 
@@ -16,10 +16,13 @@ The portfolio showcases my work and experience as a **Frontend Web Developer**, 
 
 <img width="2066" height="1330" alt="image" src="https://github.com/user-attachments/assets/cd8b0e86-bb02-4106-be61-010478fb7789" />
 
+<img width="2138" height="1232" alt="image" src="https://github.com/user-attachments/assets/d7dedb0c-cdcd-4840-a58b-4e7b8426bf4f" />
 
 
 
-## 🛠️ Tech Stack
+
+
+## Tech Stack
 
 * React
 * TypeScript
@@ -29,7 +32,7 @@ The portfolio showcases my work and experience as a **Frontend Web Developer**, 
 * Git & GitHub
 * Figma
 
-## ✨ Features
+## Features
 
 * Responsive design
 * React Router navigation
@@ -41,7 +44,7 @@ The portfolio showcases my work and experience as a **Frontend Web Developer**, 
 * Mobile navigation
 * LinkedIn and GitHub integration
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 src/
@@ -61,7 +64,7 @@ src/
 └── index.css
 ```
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -93,7 +96,7 @@ npm run dev
 
 Open the local URL provided by Vite in your browser.
 
-## 📦 Production Build
+## Production Build
 
 Build the project:
 
@@ -107,7 +110,7 @@ Preview the production build:
 npm run preview
 ```
 
-## 🧹 Lint
+## Lint
 
 Run Oxlint:
 
