@@ -18,11 +18,11 @@ function Hero() {
             <div className="blob-border absolute inset-0 bg-blue-500 shadow-2xl shadow-blue-500/20" />
 
             {/* Rotating Decorative Ring */}
-            <div className="absolute -inset-4 animate-[spin_20s_linear_infinite] rounded-full border border-dashed border-blue-300" />
+            <div className="absolute -inset-4  rounded-full border border-dashed border-blue-300" />
 
             {/* Security Accent */}
             <div className="absolute -right-4 top-8 z-20 flex h-14 w-14 rotate-12 items-center justify-center rounded-2xl bg-orange-400/80 text-2xl shadow-lg">
-              🔒
+              💻
             </div>
 
             {/* Decorative Circle */}

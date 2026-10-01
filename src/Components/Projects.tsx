@@ -44,10 +44,6 @@ function Projects() {
         <div className="w-full">
           {/* Section Header */}
           <div className="mx-auto max-w-3xl text-center">
-            <p className="text-sm font-semibold tracking-wide text-orange-500 uppercase sm:text-base">
-              Selected Work
-            </p>
-
             <h2 className="mt-3 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
               My Projects
             </h2>
@@ -83,12 +79,6 @@ function Projects() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                   </div>
                   {/* Top Row */}
-                  <div className="flex items-start justify-between">
-                    <span className="text-sm font-bold text-blue-500">
-                      0{index + 1}
-                    </span>
-                  </div>
-
                   {/* Project Name */}
                   <h3 className="mt-10 text-2xl font-bold text-gray-900 transition-colors duration-300 group-hover:text-blue-600">
                     {item.project}

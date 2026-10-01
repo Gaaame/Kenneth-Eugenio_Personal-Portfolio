@@ -13,10 +13,6 @@ function About() {
         <div className="grid w-full items-center gap-12 md:grid-cols-2">
           {/* Content */}
           <div className="text-center md:text-left">
-            <p className="text-sm font-semibold uppercase tracking-wide text-orange-500 sm:text-base">
-              About Me
-            </p>
-
             <h1 className="mt-4 text-5xl font-bold leading-tight tracking-tight text-gray-900 sm:text-6xl">
               Developer by experience.
               <br />

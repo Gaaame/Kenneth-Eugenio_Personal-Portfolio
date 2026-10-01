@@ -33,10 +33,6 @@ function Experience() {
       <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 md:py-24 lg:px-8">
         {/* Section Header */}
         <div className="mx-auto mb-16 max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-wide text-orange-500 sm:text-base">
-            Career Journey
-          </p>
-
           <h2 className="mt-3 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             My Work Experience
           </h2>
