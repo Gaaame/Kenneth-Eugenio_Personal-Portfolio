@@ -2,60 +2,39 @@
 
 A modern personal portfolio website built with **React, TypeScript, Vite, and Tailwind CSS**.
 
-The portfolio showcases my experience as a **Frontend Web Developer** while highlighting my ongoing journey into **Cybersecurity and Information Security**.
+The portfolio showcases my work and experience as a **Frontend Web Developer**, along with my ongoing focus on **Cybersecurity and Information Security**.
 
 ## 🚀 Live Website
 
-**Portfolio:** https://eugenio-portfolio-2026.netlify.app/
+**[eugenio-portfolio-2026.netlify.app](https://eugenio-portfolio-2026.netlify.app/)**
 
----
+## 🛠️ Tech Stack
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* React Router
+* Git & GitHub
+* Figma
 
 ## ✨ Features
 
-* Responsive design for desktop, tablet, and mobile
-* Modern UI built with Tailwind CSS
-* Smooth scrolling navigation
-* React Router page navigation
-* Dedicated About and Contact pages
-* Animated page transitions
-* Custom loading/preloader screen
-* Interactive navigation and mobile menu
-* Downloadable resume
+* Responsive design
+* React Router navigation
+* About and Contact pages
 * Project showcase
 * Professional experience section
+* Resume download
+* Animated transitions and preloader
+* Mobile navigation
 * LinkedIn and GitHub integration
-* Responsive blob-style profile imagery
-* Decorative grid and gradient background elements
-
----
-
-## 🛠️ Built With
-
-### Frontend
-
-* **React** — UI development
-* **TypeScript** — Type-safe JavaScript
-* **Vite** — Development environment and build tool
-* **Tailwind CSS** — Styling and responsive layouts
-* **React Router** — Client-side routing
-
-### Tools
-
-* **Git & GitHub** — Version control
-* **Figma** — UI/UX design and prototyping
-* **VS Code** — Development environment
-
----
 
 ## 📁 Project Structure
 
 ```text
 src/
 ├── assets/
-│   ├── Avatar.svg
-│   ├── aboutimg.jpg
-│   └── resume.pdf
-│
 ├── Components/
 │   ├── About.tsx
 │   ├── Contact.tsx
@@ -65,143 +44,11 @@ src/
 │   ├── Navbar.tsx
 │   ├── Preloader.tsx
 │   └── Projects.tsx
-│
 ├── App.tsx
 ├── App.css
 ├── main.tsx
 └── index.css
 ```
-
----
-
-## 🧭 Pages
-
-### Home
-
-The main landing page introduces me as a frontend developer and aspiring cybersecurity professional.
-
-It includes:
-
-* Introduction
-* Professional direction
-* Resume download
-* Featured projects
-* Professional experience
-* Social links
-
-### About
-
-Provides more information about my development experience, technical background, and transition toward cybersecurity.
-
-### Contact
-
-A dedicated contact page where visitors can reach me through email or connect with me on LinkedIn.
-
----
-
-## 💼 Experience
-
-The portfolio highlights my experience across frontend development, digital marketing, and web-based creative work.
-
-### Tenerity — Creative Assistant
-
-**2024 – 2026**
-
-Collaborated with international clients across Europe, North and South America to develop and implement marketing solutions that enhanced brand visibility and accessibility. Developed and optimized HTML and CSS creatives for deployment through Google Campaign Manager, ensuring accurate functionality, responsiveness, and adherence to campaign requirements.
-
-### One Document Corporation — Frontend Developer
-
-**2021 – 2024**
-
-Developed responsive websites and digital experiences using technologies including:
-
-* React
-* Tailwind CSS
-* Bootstrap
-* WordPress
-* Figma
-
-Worked on projects involving UI/UX design, website development, prototypes, and WordPress improvements.
-
-### Chimes Consulting — Frontend Associate Developer
-
-**2021**
-
-Worked on frontend development and UI/UX projects while gaining experience with:
-
-* Tailwind CSS
-* Laravel
-* Git
-* Figma
-* PHP
-* Chart.js
-
----
-
-## 📌 Featured Projects
-
-### E-Agro
-
-A web platform designed to connect farmers, suppliers, and agricultural workers while providing access to farming-related tools and resources.
-
-**Technologies:**
-
-* React
-* Frontend Development
-
-### Backroads Travel Website
-
-A responsive travel website focused on presenting destinations and travel experiences through a clean and modern interface.
-
-**Technologies:**
-
-* HTML
-* CSS
-* JavaScript
-* Responsive Web Design
-
-### Photography Portfolio
-
-A photography portfolio website designed to showcase photography work through a visually focused interface.
-
-**Tools:**
-
-* Figma
-* UI/UX Design
-* Web Design
-
----
-
-## 🎨 Design
-
-The portfolio uses a clean, modern visual style centered around a blue and orange color palette.
-
-The design focuses on:
-
-* Minimal layouts
-* Responsive interfaces
-* Clear typography
-* Subtle animations
-* Smooth transitions
-* Accessible navigation
-* Visual hierarchy
-
----
-
-## 🔐 Career Direction
-
-My professional background is primarily focused on **frontend web development**, and I am currently expanding my knowledge in **cybersecurity and information security**.
-
-My long-term goal is to combine development and security knowledge to better understand how digital systems are:
-
-* Built
-* Deployed
-* Secured
-* Maintained
-
-This portfolio represents both my existing development experience and my continued growth toward security-focused roles.
-
----
 
 ## ⚙️ Getting Started
 
@@ -209,89 +56,55 @@ This portfolio represents both my existing development experience and my continu
 
 Make sure you have **Node.js** and **npm** installed.
 
-### Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Gaaame/your-repository-name.git
 ```
 
-### Navigate to the project
+### 2. Navigate to the project
 
 ```bash
 cd your-repository-name
 ```
 
-### Install dependencies
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-### Start the development server
+### 4. Start the development server
 
 ```bash
 npm run dev
 ```
 
-The application will be available at the local development URL provided by Vite.
+Open the local URL provided by Vite in your browser.
 
----
+## 📦 Production Build
 
-## 📦 Build for Production
-
-Create a production build with:
+Build the project:
 
 ```bash
 npm run build
 ```
 
-Preview the production build locally:
+Preview the production build:
 
 ```bash
 npm run preview
 ```
 
----
+## 🧹 Lint
 
-## 🧹 Linting
-
-This project uses **Oxlint** for code quality and linting.
-
-Run the linter with:
+Run Oxlint:
 
 ```bash
 npm run lint
 ```
 
-For production applications, type-aware linting can be enabled using `oxlint-tsgolint`.
-
----
-
-## ⚛️ React Compiler
-
-The React Compiler is currently not enabled in this project.
-
-It can be enabled in the future if needed. See the official React Compiler documentation for installation instructions.
-
----
-
-## 📄 License
-
-This project is a personal portfolio created by **Kenneth Eugenio**.
-
-The source code is available for reference and learning purposes. Please do not reuse personal information, images, resume content, or other personal assets without permission.
-
----
-
 ## 📬 Contact
-
-I'm open to discussing:
-
-* Frontend development opportunities
-* Web projects
-* Creative and digital experiences
-* Collaboration
-* Cybersecurity learning opportunities
 
 **Email:** [eugenio.kennethcleofas@gmail.com](mailto:eugenio.kennethcleofas@gmail.com)
 
@@ -301,6 +114,4 @@ I'm open to discussing:
 
 ---
 
-### Built with React + TypeScript + Vite
-
-Designed and developed by **Kenneth Eugenio**.
+Built with **React + TypeScript + Vite** by **Kenneth Eugenio**.
