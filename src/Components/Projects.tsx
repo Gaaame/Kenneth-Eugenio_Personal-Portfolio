@@ -25,12 +25,21 @@ const projects = [
       "A UI/UX case study focused on creating a clean and visually engaging photography portfolio.",
   },
   {
+    url: "https://pokedex-champions.netlify.app/",
+    project: "Pokedex Champions",
+    image: "https://ibb.co/YFX7ZrWV",
+    tags: ["React", "CSS", "JavaScript", "Frontend"],
+    description:
+      "A website compiling information from the POKEAPI to easily access what's needed for competitive play.",
+  },
+  {
     url: "https://kenneth-photographysite.netlify.app/",
     project: "Photography Portfolio Website",
     image:
       "https://i.8upload.com/image/085904c05788daf6/screencapture-kenneth-photographysite-netlify-app-2026-09-28-16-12-35.png",
     tags: ["HTML", "CSS", "JavaScript", "Frontend"],
-    description: "Turning the case study into an interactive portfolio",
+    description:
+      "A website, turning the UI case study into an interactive portfolio",
   },
 ];
 
