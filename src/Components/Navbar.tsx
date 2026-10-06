@@ -113,9 +113,6 @@ function Navbar() {
               className="group hidden items-center gap-2 rounded-full bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-blue-500/20 transition-all duration-300 hover:-translate-y-1 hover:bg-orange-400 hover:shadow-xl sm:inline-flex"
             >
               Contact Me
-              <span className="transition-transform duration-300 group-hover:translate-x-1">
-                →
-              </span>
             </Link>
 
             {/* Mobile Menu Button */}

@@ -52,9 +52,9 @@ function Hero() {
           </h1>
 
           {/* Description */}
-          <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-gray-600 sm:text-lg">
-            A frontend developer with experience creating modern digital
-            experiences, currently expanding my skills and knowledge in
+          <p className="mx-auto mt-8 max-w-2xl text-base leading-relaxed text-pretty text-gray-600 sm:text-lg">
+            I am a frontend developer with experience creating modern digital
+            experiences, I am currently expanding my skills and knowledge in
             cybersecurity and information security.
           </p>
 
@@ -66,9 +66,6 @@ function Hero() {
               className="group inline-flex items-center gap-3 rounded-full bg-blue-600 px-6 py-3.5 font-semibold text-white shadow-lg shadow-blue-500/20 transition-all duration-300 hover:-translate-y-1 hover:bg-blue-700 hover:shadow-xl"
             >
               Resume
-              <span className="transition-transform duration-300 group-hover:translate-x-1">
-                →
-              </span>
             </a>
 
             <a

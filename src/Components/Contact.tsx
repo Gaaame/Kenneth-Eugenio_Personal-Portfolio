@@ -16,11 +16,6 @@ function Contact() {
 
       <div className="relative mx-auto flex min-h-[calc(100vh-5rem)] max-w-4xl items-center px-4 text-center sm:px-6 lg:px-8">
         <div className="w-full">
-          {/* Section Label */}
-          <p className="text-sm font-semibold uppercase tracking-wide text-orange-500 sm:text-base">
-            Get in touch
-          </p>
-
           {/* Heading */}
           <h2 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             Let's work{" "}
@@ -101,15 +96,13 @@ function Contact() {
             <span className="text-sm font-medium text-gray-500">
               Or connect with me on
             </span>
-
             <a
               href="https://www.linkedin.com/in/kenneth-eugenio-7452403a0/"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-2 font-semibold text-blue-600 transition-colors duration-300 hover:text-blue-800"
+              className="inline-flex items-center font-semibold text-blue-600 transition-colors duration-300 hover:text-blue-800"
             >
               LinkedIn
-              <span>↗</span>
             </a>
           </div>
         </div>

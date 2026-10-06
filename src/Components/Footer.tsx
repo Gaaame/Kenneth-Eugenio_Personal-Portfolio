@@ -23,9 +23,6 @@ function Footer() {
             className="group mt-6 inline-flex items-center gap-3 rounded-full bg-blue-600 px-6 py-3 font-semibold text-white shadow-lg shadow-blue-500/20 transition-all duration-300 hover:-translate-y-1 hover:bg-orange-400 hover:shadow-xl sm:mt-8 sm:px-7 sm:py-3.5"
           >
             Get In Touch
-            <span className="transition-transform duration-300 group-hover:translate-x-1">
-              →
-            </span>
           </Link>
         </div>
 
