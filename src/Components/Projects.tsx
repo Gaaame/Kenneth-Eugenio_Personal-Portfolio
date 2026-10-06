@@ -65,7 +65,7 @@ function Projects() {
 
           {/* Project Cards */}
           <div className="mx-auto mt-14 grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2 ">
-            {projects.map((item, index) => (
+            {projects.map((item) => (
               <a
                 key={item.project}
                 href={item.url}
@@ -74,7 +74,7 @@ function Projects() {
                 className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-7 transition-all duration-300 hover:-translate-y-2 hover:border-blue-200 hover:shadow-xl"
               >
                 {/* Hover Background */}
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-50/0 to-orange-50/0 transition-all duration-300 group-hover:from-blue-50 group-hover:to-orange-50" />
+                <div className="absolute inset-0 from-blue-50/0 to-orange-50/0 transition-all duration-300 group-hover:from-blue-50 group-hover:to-orange-50" />
 
                 <div className="relative">
                   {/* Project Preview */}
@@ -85,7 +85,7 @@ function Projects() {
                       className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
 
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                    <div className="absolute inset-0 from-black/30 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                   </div>
                   {/* Top Row */}
                   {/* Project Name */}
