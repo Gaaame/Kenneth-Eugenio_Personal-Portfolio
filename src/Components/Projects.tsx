@@ -27,7 +27,7 @@ const projects = [
   {
     url: "https://pokedex-champions.netlify.app/",
     project: "Pokedex Champions",
-    image: "https://ibb.co/YFX7ZrWV",
+    image: "https://i.ibb.co/HDcGxy0v/Capture.png",
     tags: ["React", "CSS", "JavaScript", "Frontend"],
     description:
       "A website compiling information from the POKEAPI to easily access what's needed for competitive play.",
