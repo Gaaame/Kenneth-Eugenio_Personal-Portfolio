@@ -15,15 +15,15 @@ const projects = [
     description:
       "Creating a one-stop digital destination for discovering and exploring travel experiences.",
   },
-  {
-    url: "https://www.behance.net/gallery/175292137/Simple-Green-and-White-Photography-Portfolio",
-    project: "Photography Portfolio",
-    image:
-      "https://i.8upload.com/image/9df6da44522c0911/7b9d35175292137-64b0eb6353954.webp",
-    tags: ["Figma", "UI/UX", "Mockup"],
-    description:
-      "A UI/UX case study focused on creating a clean and visually engaging photography portfolio.",
-  },
+  // {
+  //   url: "https://www.behance.net/gallery/175292137/Simple-Green-and-White-Photography-Portfolio",
+  //   project: "Photography Portfolio",
+  //   image:
+  //     "https://i.8upload.com/image/9df6da44522c0911/7b9d35175292137-64b0eb6353954.webp",
+  //   tags: ["Figma", "UI/UX", "Mockup"],
+  //   description:
+  //     "A UI/UX case study focused on creating a clean and visually engaging photography portfolio.",
+  // },
   {
     url: "https://pokedex-champions.netlify.app/",
     project: "Pokedex Champions",
