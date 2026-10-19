@@ -8,7 +8,7 @@ const experiences = [
       "Collaborated with international clients across Europe, North and South America to develop and implement marketing solutions that enhanced brand visibility and accessibility. Developed and optimized HTML and CSS creatives for deployment through Google Campaign Manager, ensuring accurate functionality, responsiveness, and adherence to campaign requirements.",
   },
   {
-    img: "https://scontent.fcrk3-3.fna.fbcdn.net/v/t39.30808-6/383227245_122113560422036576_1853721362413452941_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s1080x1080&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHBK-CqjhqxpCeqDXEv8yfrt1I-OwR8aYS3Uj47BHxphIDgnXqQEEGCFzmV3l_o2ZA&_nc_ohc=2mQiMRZ3xeEQ7kNvwFAIrug&_nc_oc=Adrru_GXrcH1VAUjEZ-KUSR7o-YN-OE054L5B0rOtQpPfNtEnCzz1NMU8FoojZekeFYp_4M-AdUvk_iFJNQBdsQ-&_nc_zt=23&_nc_ht=scontent.fcrk3-3.fna&_nc_gid=8B2_BEmWxzw8VF5-AO4uRw&_nc_ss=7b2a8&oh=00_AQN8n3N2C9P-XTnqPqHDGvX27UTqgL7TK3O1BvgLLJ-Z3w&oe=6AC3BA30",
+    img: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D122113560428036576&f=1&nofb=1&ipt=b85d6bc8193ed322025f43002f018112d9282abd83a7696c62810dae32b2801c&ipo=images",
     company: "One Document Corporation",
     year: "2021 - 2024",
     role: "Frontend Developer",
