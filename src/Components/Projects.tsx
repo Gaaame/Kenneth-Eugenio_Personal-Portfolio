@@ -82,7 +82,7 @@ function Projects() {
                     <img
                       src={item.image}
                       alt={`${item.project} preview`}
-                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      className="h-full w-full object-cover "
                     />
 
                     <div className="absolute inset-0 from-black/30 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
