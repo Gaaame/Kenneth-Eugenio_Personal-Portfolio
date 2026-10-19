@@ -71,7 +71,7 @@ function Projects() {
                 href={item.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-7 transition-all duration-300 hover:-translate-y-2 hover:border-blue-200 hover:shadow-xl"
+                className="group relative overflow-hidden rounded-2xl border border-gray-200 bg-white p-7 transition-all duration-300  hover:border-blue-200 hover:shadow-xl"
               >
                 {/* Hover Background */}
                 <div className="absolute inset-0 from-blue-50/0 to-orange-50/0 transition-all duration-300 group-hover:from-blue-50 group-hover:to-orange-50" />
