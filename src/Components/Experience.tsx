@@ -58,9 +58,6 @@ function Experience() {
 
                 {/* Card */}
                 <div className="relative overflow-hidden rounded-2xl border border-blue-100 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-blue-200 hover:shadow-xl sm:p-8">
-                  {/* Card Hover Accent */}
-                  <div className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-blue-500 to-orange-400 transition-all duration-300 group-hover:w-2" />
-
                   <div className="relative flex flex-col text-center gap-6 md:text-left md:flex-row md:items-start">
                     {/* Logo */}
                     <div className="flex h-28 w-72 mx-auto shrink-0 items-center justify-center rounded-2xl border border-gray-100 bg-white p-2 shadow-sm transition-all duration-300 group-hover:scale-105 group-hover:shadow-md sm:h-24 sm:w-24 sm:p-3">

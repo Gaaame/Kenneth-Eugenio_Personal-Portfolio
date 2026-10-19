@@ -47,6 +47,32 @@ function Services() {
         </svg>
       ),
     },
+    {
+      title: "Cybersecurity",
+      description:
+        "Building a safer digital experience through security awareness and best practices.",
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.5"
+          className="h-8 w-8"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M12 22s8-4 8-11V5l-8-3-8 3v6c0 7 8 11 8 11Z"
+          />
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="m9 12 2 2 4-4"
+          />
+        </svg>
+      ),
+    },
   ];
 
   return (
@@ -68,11 +94,11 @@ function Services() {
         </div>
 
         {/* Service Cards */}
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
             <div
               key={service.title}
-              className="group rounded-3xl border border-gray-200 bg-white p-8 transition-colors duration-200 hover:border-blue-300 sm:p-10"
+              className="group rounded-3xl border border-gray-200 bg-white p-8 transition-all duration-300 hover:-translate-y-1 hover:border-blue-300 sm:p-10"
             >
               <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-50 text-blue-600 transition-colors duration-200 group-hover:bg-blue-100">
                 {service.icon}
