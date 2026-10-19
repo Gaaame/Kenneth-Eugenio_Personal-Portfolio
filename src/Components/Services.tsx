@@ -1,7 +1,7 @@
 function Services() {
   const services = [
     {
-      title: "Web Development",
+      title: "Website Development",
       description: "I can bring your ideas from paper to screen.",
       icon: (
         <svg
@@ -44,6 +44,29 @@ function Services() {
             strokeLinejoin="round"
             d="m19 14 .9 2.1L22 17l-2.1.9L19 20l-.9-2.1L16 17l2.1-.9L19 14Z"
           />
+        </svg>
+      ),
+    },
+    {
+      title: "E-commerce Websites",
+      description:
+        "I build online stores that make shopping simple and seamless.",
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.5"
+          className="h-8 w-8"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M3 3h2l2.4 12.2a2 2 0 0 0 2 1.6h8.8a2 2 0 0 0 2-1.6L22 7H6"
+          />
+          <circle cx="10" cy="21" r="1" />
+          <circle cx="19" cy="21" r="1" />
         </svg>
       ),
     },
@@ -94,7 +117,7 @@ function Services() {
         </div>
 
         {/* Service Cards */}
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 ">
           {services.map((service) => (
             <div
               key={service.title}
