@@ -78,7 +78,7 @@ function Navbar() {
             }}
             className="group relative flex items-center gap-2"
           >
-            <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-600 text-lg font-black text-white shadow-md transition-all duration-300 group-hover:-rotate-6 group-hover:scale-110 group-hover:bg-orange-400 group-hover:shadow-lg">
+            <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-600 text-lg font-black text-white shadow-md transition-all duration-300 hover:-translate-y-1  group-hover:bg-orange-400 group-hover:shadow-lg">
               KE
             </span>
 
@@ -99,7 +99,7 @@ function Navbar() {
                   >
                     {item.label}
 
-                    <span className="absolute bottom-0 left-0 h-0.5 w-0 rounded-full bg-orange-400 transition-all duration-300 group-hover:w-full" />
+                    {/* <span className="absolute bottom-0 left-0 h-0.5 w-0 rounded-full bg-orange-400 transition-all duration-300 group-hover:w-full" /> */}
                   </a>
                 </li>
               ))}
