@@ -10,12 +10,13 @@ import Projects from "./Components/Projects.tsx";
 import Footer from "./Components/Footer.tsx";
 import Contact from "./Components/Contact.tsx";
 import About from "./Components/About.tsx";
+import Services from "./Components/Services.tsx";
 
 function Home() {
   return (
     <>
       {" "}
-      <Hero /> <About /> <Experience /> <Projects /> <Footer />
+      <Hero /> <About /> <Experience /> <Projects /> <Services /> <Footer />
     </>
   );
 }
